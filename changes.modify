@@ -44,3 +44,43 @@ SO ADD IT
 
 
 I WILL ADD FUNCTIONAL SPECIFICATIONS
+
+FUNCTIONAL SPECIFICATIONS:
+==========================
+
+1. Search Softwares
+
+Name of module : searchProprietarySoftware
+Parameters : Text entered by the user at the front end
+Purpose : This functional component will be used to search for proprietary softwares that 
+have already been requested by some user to get its alternatives.
+
+2. Request for alternatives for a software
+
+Name of module : addProprietarySoftwares
+Parameters : The name of the software for which alternatives are desired, tags defining the software.
+Purpose : This functional component is used when a user wants to request for alternatives to a proprietary software that in not already available on the platform. The user will need to specify the name of the software along with the tags to cateogarize the software, which can be later used to fetch the alternatives.
+
+3. Suggest alternatives
+
+Name of module : addAlternatives
+Parameters : The name of the alternative software along with the handle which uniquely categorizes the software 
+Purpose : This functional component is used when the user wishes to add a new alternative software to the 
+
+4. Check license of a software
+
+Name of module : 
+Parameters : 
+Purpose : 
+
+5. Upvote/Downvote a particular alternative
+
+Name of module : upVote/downVote
+Parameters : A unique identifier for the software which will be picked up by the front end during the user's interaction with the voting feature
+Purpose : This functional component is utilized when the user wishes to upvote or downvote a software 
+
+6. Signup/Login/Authenticate
+
+Name of module : authenticate/register
+Parameters : The required user credentials depending on the operation to be performed
+Purpose : Used to start a session by either logging in the user or creating a new user in case the corresponding entry for the user does not exist. This module will also authenticate the user in case he wishes to login by checking the userid and password. For security reasons, the password hash is stored rather than the password in clear text.
