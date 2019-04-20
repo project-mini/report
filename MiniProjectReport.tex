@@ -1,4 +1,4 @@
-\documentclass[12pt]{report}
+\documentclass[oneside, 12pt]{Classes/VTU}
 \usepackage[utf8]{inputenc}
 \usepackage{fullpage}
 \usepackage{amsmath}
@@ -11,9 +11,19 @@
 \begin{document}
 
 
-\input{Acknowledgement.tex}
-\pagebreak
-\input{Abstract.tex}
+\renewcommand\baselinestretch{1.2}
+\baselineskip=18pt plus1pt
+
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\begin{romanpages}
+\include{Acknowledgement}
+\cleardoublepage
+\include{Abstract}
+\cleardoublepage
+\end{romanpages}
 
 
 \tableofcontents

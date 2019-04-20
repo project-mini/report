@@ -1,0 +1,63 @@
+\contentsline {chapter}{Acknowledgment}{i}{section*.1}
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Background Study}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Motivation}{4}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Relevance and Social Impact}{5}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Industrial Impact}{6}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Related Works}{6}{section.1.2}
+\contentsline {section}{\numberline {1.3}Problem Statement and Objectives}{6}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Problem Statement}{6}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Objectives}{7}{subsection.1.3.2}
+\contentsline {chapter}{\numberline {2}High-Level Design}{8}{chapter.2}
+\contentsline {section}{\numberline {2.1}Software Development Methodology}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}Architecture}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}RESTful API/End Points}{9}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}\texttt {GET Requests}}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}\texttt {POST Requests}}{10}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}\texttt {PUT Requests}}{12}{subsection.2.3.3}
+\contentsline {chapter}{\numberline {3}Detailed Design}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Interface Design}{13}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The Users}{13}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Other softwares}{13}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Data Structures and Algorithms}{13}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}\texttt {createProprietarySoftware}}{14}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}\texttt {getTopAlternatives}}{14}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}\texttt {createFreeSoftware}}{14}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}\texttt {getAllFreeSoftwares}}{15}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}\texttt {checkLicense}}{15}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}\texttt {getProprietarySoftwares}}{15}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}\texttt {getAllProprietarySoftwares}}{15}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}\texttt {getAlternatives}}{16}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}\texttt {increaseUpvotes}}{16}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.10}\texttt {decreaseUpvotes}}{16}{subsection.3.2.10}
+\contentsline {section}{\numberline {3.3}UML Diagrams and Discussions}{17}{section.3.3}
+\contentsline {section}{\numberline {3.4}Data Source/Database used and formats}{19}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Details on Database}{19}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Data format/schemas}{19}{subsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Proprietarysoftware}{19}{subsubsection.3.4.2.1}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Freesoftware}{20}{subsubsection.3.4.2.2}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Usercredentials}{21}{subsubsection.3.4.2.3}
+\contentsline {chapter}{\numberline {4}Implementation}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}Tools and Technologies}{22}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}NodeJS}{22}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}MongoDB}{22}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}ReactJS}{23}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Coding Standards Followed}{23}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Proper Indentation / Structure}{23}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Naming Convention}{23}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Avoiding Callback Hell}{23}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Modular Approach}{24}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Proper Folder Structure/Naming}{24}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Model View Controller Model}{24}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Documentation}{24}{subsection.4.2.7}
+\contentsline {section}{\numberline {4.3}Execution Results and Discussions}{25}{section.4.3}
+\contentsline {subsubsection}{\numberline {4.3.0.1}}{25}{subsubsection.4.3.0.1}
+\contentsline {subsubsection}{\numberline {4.3.0.2}}{26}{subsubsection.4.3.0.2}
+\contentsline {subsubsection}{\numberline {4.3.0.3}}{27}{subsubsection.4.3.0.3}
+\contentsline {subsubsection}{\numberline {4.3.0.4}}{28}{subsubsection.4.3.0.4}
+\contentsline {subsubsection}{\numberline {4.3.0.5}}{29}{subsubsection.4.3.0.5}
+\contentsline {subsubsection}{\numberline {4.3.0.6}}{32}{subsubsection.4.3.0.6}
+\contentsline {chapter}{\numberline {5}Conclusion And Future Scope}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclusions}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Scope}{33}{section.5.2}
