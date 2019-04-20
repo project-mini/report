@@ -69,9 +69,9 @@ Purpose : This functional component is used when the user wishes to add a new al
 
 4. Check license of a software
 
-Name of module : 
-Parameters : 
-Purpose : 
+Name of module : checkLicense
+Parameters : Name of the software for which the license is to be checked
+Purpose : This functional component will be used to show the license under which the software is published. The user can also get more detailed information about the license via this module. The license for the software will be specified by the user who suggested the alternative.
 
 5. Upvote/Downvote a particular alternative
 
