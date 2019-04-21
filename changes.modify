@@ -84,3 +84,21 @@ Purpose : This functional component is utilized when the user wishes to upvote o
 Name of module : authenticate/register
 Parameters : The required user credentials depending on the operation to be performed
 Purpose : Used to start a session by either logging in the user or creating a new user in case the corresponding entry for the user does not exist. This module will also authenticate the user in case he wishes to login by checking the userid and password. For security reasons, the password hash is stored rather than the password in clear text.
+
+
+
+
+*ARCHITECTUTRE EXPLAINATION
+===========================
+
+As the architecture shows, the application works in five different layers - Data layer, data access layer, middleware, service layer and presentation layer. The explaination of each of these layers is as follows:
+
+1. Data Layer : This layer will deal with the data source, i.e the database which is used to store all the data necessary for this application to function. This is the MongoDB database in our case, which is a free and NoSQL database. The data to be stored is the user data and the data related to the softwares and their alternatives.
+
+2. Data Access Layer : This layer will deal with accessing the data that is stored in the database and changing it to a format which can be used by the application for further processing, such as creating objects out of the documents stored in the MongoDB database. This layer will comprise of modules consisting of functions to deal with both the user data and the software data stored at the data layer.
+
+3. Middleware : This layer consists of middleware which deals with add-on tasks such as input validation, session handling using express, user authentication and registration. Various other minor middlewares are also used throughout the project which aid in integration of the data access layer with the service layer.
+
+4. Service layer : This layer is the one responsible for getting the validated data through RESTful api end points and presenting it to the user on the front end as well as take the input from user, send it to the middleware for further validation before storing it in the database. Basically, this layer is used to glue together the front-end to the back-end.
+
+5. Presentation layer : This layer is the one which will be directly accessible to the user and the point via which the user interacts with the application. It is designed using the React Framework and consists of various forms, fields, tables  and components to enable the user to perform various actions like searching, posting data, retrieving data, voting et cetera which enable the smooth functioning of the application.
