@@ -1,62 +1,67 @@
-\BOOKMARK [0][]{section*.1}{Acknowledgment}{}% 1
-\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 2
-\BOOKMARK [1][]{section.1.1}{1.1 Background Study}{chapter.1}% 3
-\BOOKMARK [2][]{subsection.1.1.1}{1.1.1 Motivation}{section.1.1}% 4
-\BOOKMARK [2][]{subsection.1.1.2}{1.1.2 Relevance and Social Impact}{section.1.1}% 5
-\BOOKMARK [2][]{subsection.1.1.3}{1.1.3 Industrial Impact}{section.1.1}% 6
-\BOOKMARK [1][]{section.1.2}{1.2 Related Works}{chapter.1}% 7
-\BOOKMARK [1][]{section.1.3}{1.3 Problem Statement and Objectives}{chapter.1}% 8
-\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Problem Statement}{section.1.3}% 9
-\BOOKMARK [2][]{subsection.1.3.2}{1.3.2 Objectives}{section.1.3}% 10
-\BOOKMARK [0][]{chapter.2}{2 High-Level Design}{}% 11
-\BOOKMARK [1][]{section.2.1}{2.1 Software Development Methodology}{chapter.2}% 12
-\BOOKMARK [1][]{section.2.2}{2.2 Architecture}{chapter.2}% 13
-\BOOKMARK [1][]{section.2.3}{2.3 RESTful API/End Points}{chapter.2}% 14
-\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 GET Requests}{section.2.3}% 15
-\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 POST Requests}{section.2.3}% 16
-\BOOKMARK [2][]{subsection.2.3.3}{2.3.3 PUT Requests}{section.2.3}% 17
-\BOOKMARK [0][]{chapter.3}{3 Detailed Design}{}% 18
-\BOOKMARK [1][]{section.3.1}{3.1 Interface Design}{chapter.3}% 19
-\BOOKMARK [2][]{subsection.3.1.1}{3.1.1 The Users}{section.3.1}% 20
-\BOOKMARK [2][]{subsection.3.1.2}{3.1.2 Other softwares}{section.3.1}% 21
-\BOOKMARK [1][]{section.3.2}{3.2 Data Structures and Algorithms}{chapter.3}% 22
-\BOOKMARK [2][]{subsection.3.2.1}{3.2.1 createProprietarySoftware}{section.3.2}% 23
-\BOOKMARK [2][]{subsection.3.2.2}{3.2.2 getTopAlternatives}{section.3.2}% 24
-\BOOKMARK [2][]{subsection.3.2.3}{3.2.3 createFreeSoftware}{section.3.2}% 25
-\BOOKMARK [2][]{subsection.3.2.4}{3.2.4 getAllFreeSoftwares}{section.3.2}% 26
-\BOOKMARK [2][]{subsection.3.2.5}{3.2.5 checkLicense}{section.3.2}% 27
-\BOOKMARK [2][]{subsection.3.2.6}{3.2.6 getProprietarySoftwares}{section.3.2}% 28
-\BOOKMARK [2][]{subsection.3.2.7}{3.2.7 getAllProprietarySoftwares}{section.3.2}% 29
-\BOOKMARK [2][]{subsection.3.2.8}{3.2.8 getAlternatives}{section.3.2}% 30
-\BOOKMARK [2][]{subsection.3.2.9}{3.2.9 increaseUpvotes}{section.3.2}% 31
-\BOOKMARK [2][]{subsection.3.2.10}{3.2.10 decreaseUpvotes}{section.3.2}% 32
-\BOOKMARK [1][]{section.3.3}{3.3 UML Diagrams and Discussions}{chapter.3}% 33
-\BOOKMARK [1][]{section.3.4}{3.4 Data Source/Database used and formats}{chapter.3}% 34
-\BOOKMARK [2][]{subsection.3.4.1}{3.4.1 Details on Database}{section.3.4}% 35
-\BOOKMARK [2][]{subsection.3.4.2}{3.4.2 Data format/schemas}{section.3.4}% 36
-\BOOKMARK [3][]{subsubsection.3.4.2.1}{3.4.2.1 Proprietarysoftware}{subsection.3.4.2}% 37
-\BOOKMARK [3][]{subsubsection.3.4.2.2}{3.4.2.2 Freesoftware}{subsection.3.4.2}% 38
-\BOOKMARK [3][]{subsubsection.3.4.2.3}{3.4.2.3 Usercredentials}{subsection.3.4.2}% 39
-\BOOKMARK [0][]{chapter.4}{4 Implementation}{}% 40
-\BOOKMARK [1][]{section.4.1}{4.1 Tools and Technologies}{chapter.4}% 41
-\BOOKMARK [2][]{subsection.4.1.1}{4.1.1 NodeJS}{section.4.1}% 42
-\BOOKMARK [2][]{subsection.4.1.2}{4.1.2 MongoDB}{section.4.1}% 43
-\BOOKMARK [2][]{subsection.4.1.3}{4.1.3 ReactJS}{section.4.1}% 44
-\BOOKMARK [1][]{section.4.2}{4.2 Coding Standards Followed}{chapter.4}% 45
-\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 Proper Indentation / Structure}{section.4.2}% 46
-\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 Naming Convention}{section.4.2}% 47
-\BOOKMARK [2][]{subsection.4.2.3}{4.2.3 Avoiding Callback Hell}{section.4.2}% 48
-\BOOKMARK [2][]{subsection.4.2.4}{4.2.4 Modular Approach}{section.4.2}% 49
-\BOOKMARK [2][]{subsection.4.2.5}{4.2.5 Proper Folder Structure/Naming}{section.4.2}% 50
-\BOOKMARK [2][]{subsection.4.2.6}{4.2.6 Model View Controller Model}{section.4.2}% 51
-\BOOKMARK [2][]{subsection.4.2.7}{4.2.7 Documentation}{section.4.2}% 52
-\BOOKMARK [1][]{section.4.3}{4.3 Execution Results and Discussions}{chapter.4}% 53
-\BOOKMARK [2][]{subsubsection.4.3.0.1}{4.3.0.1 }{section.4.3}% 54
-\BOOKMARK [3][]{subsubsection.4.3.0.2}{4.3.0.2 }{subsubsection.4.3.0.1}% 55
-\BOOKMARK [3][]{subsubsection.4.3.0.3}{4.3.0.3 }{subsubsection.4.3.0.1}% 56
-\BOOKMARK [3][]{subsubsection.4.3.0.4}{4.3.0.4 }{subsubsection.4.3.0.1}% 57
-\BOOKMARK [3][]{subsubsection.4.3.0.5}{4.3.0.5 }{subsubsection.4.3.0.1}% 58
-\BOOKMARK [3][]{subsubsection.4.3.0.6}{4.3.0.6 }{subsubsection.4.3.0.1}% 59
-\BOOKMARK [0][]{chapter.5}{5 Conclusion And Future Scope}{}% 60
-\BOOKMARK [1][]{section.5.1}{5.1 Conclusions}{chapter.5}% 61
-\BOOKMARK [1][]{section.5.2}{5.2 Future Scope}{chapter.5}% 62
+\BOOKMARK [0][]{Doc-Start}{Acknowledgments}{}% 1
+\BOOKMARK [0][]{Doc-Start}{Abstract}{}% 2
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 3
+\BOOKMARK [1][]{section.1.1}{1.1 Background Study}{chapter.1}% 4
+\BOOKMARK [2][]{subsection.1.1.1}{1.1.1 Motivation}{section.1.1}% 5
+\BOOKMARK [2][]{subsection.1.1.2}{1.1.2 Relevance and Social Impact}{section.1.1}% 6
+\BOOKMARK [2][]{subsection.1.1.3}{1.1.3 Industrial Impact}{section.1.1}% 7
+\BOOKMARK [1][]{section.1.2}{1.2 Related Works}{chapter.1}% 8
+\BOOKMARK [1][]{section.1.3}{1.3 Problem Statement and Objectives}{chapter.1}% 9
+\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Problem Statement}{section.1.3}% 10
+\BOOKMARK [2][]{subsection.1.3.2}{1.3.2 Objectives}{section.1.3}% 11
+\BOOKMARK [0][]{chapter.2}{2 High-Level Design}{}% 12
+\BOOKMARK [1][]{section.2.1}{2.1 Software Development Methodology}{chapter.2}% 13
+\BOOKMARK [2][]{subsection.2.1.1}{2.1.1 What is it?}{section.2.1}% 14
+\BOOKMARK [2][]{subsection.2.1.2}{2.1.2 Why we chose it?}{section.2.1}% 15
+\BOOKMARK [1][]{section.2.2}{2.2 Architecture}{chapter.2}% 16
+\BOOKMARK [1][]{section.2.3}{2.3 Functional Specifications}{chapter.2}% 17
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Search Softwares}{section.2.3}% 18
+\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 Request for alternatives for a software}{section.2.3}% 19
+\BOOKMARK [2][]{subsection.2.3.3}{2.3.3 Suggest alternatives}{section.2.3}% 20
+\BOOKMARK [2][]{subsection.2.3.4}{2.3.4 Check license of a software}{section.2.3}% 21
+\BOOKMARK [2][]{subsection.2.3.5}{2.3.5 Upvote/Downvote a particular alternative}{section.2.3}% 22
+\BOOKMARK [2][]{subsection.2.3.6}{2.3.6 Signup/Login/Authenticate}{section.2.3}% 23
+\BOOKMARK [0][]{chapter.3}{3 Detailed Design}{}% 24
+\BOOKMARK [1][]{section.3.1}{3.1 Interface Design}{chapter.3}% 25
+\BOOKMARK [2][]{subsection.3.1.1}{3.1.1 The Users}{section.3.1}% 26
+\BOOKMARK [2][]{subsection.3.1.2}{3.1.2 Other softwares}{section.3.1}% 27
+\BOOKMARK [1][]{section.3.2}{3.2 Data Structures and Algorithms}{chapter.3}% 28
+\BOOKMARK [2][]{subsection.3.2.1}{3.2.1 createProprietarySoftware}{section.3.2}% 29
+\BOOKMARK [2][]{subsection.3.2.2}{3.2.2 getTopAlternatives}{section.3.2}% 30
+\BOOKMARK [2][]{subsection.3.2.3}{3.2.3 createFreeSoftware}{section.3.2}% 31
+\BOOKMARK [2][]{subsection.3.2.4}{3.2.4 getAllFreeSoftwares}{section.3.2}% 32
+\BOOKMARK [2][]{subsection.3.2.5}{3.2.5 checkLicense}{section.3.2}% 33
+\BOOKMARK [2][]{subsection.3.2.6}{3.2.6 getProprietarySoftwares}{section.3.2}% 34
+\BOOKMARK [2][]{subsection.3.2.7}{3.2.7 getAllProprietarySoftwares}{section.3.2}% 35
+\BOOKMARK [2][]{subsection.3.2.8}{3.2.8 getAlternatives}{section.3.2}% 36
+\BOOKMARK [2][]{subsection.3.2.9}{3.2.9 increaseUpvotes}{section.3.2}% 37
+\BOOKMARK [2][]{subsection.3.2.10}{3.2.10 decreaseUpvotes}{section.3.2}% 38
+\BOOKMARK [1][]{section.3.3}{3.3 UML Diagram and Discussion}{chapter.3}% 39
+\BOOKMARK [1][]{section.3.4}{3.4 Data Source, Database, And Associated Formats}{chapter.3}% 40
+\BOOKMARK [2][]{subsection.3.4.1}{3.4.1 Details on Database}{section.3.4}% 41
+\BOOKMARK [2][]{subsection.3.4.2}{3.4.2 Data Format/Schemas}{section.3.4}% 42
+\BOOKMARK [3][]{subsubsection.3.4.2.1}{3.4.2.1 Proprietarysoftware}{subsection.3.4.2}% 43
+\BOOKMARK [3][]{subsubsection.3.4.2.2}{3.4.2.2 Freesoftware}{subsection.3.4.2}% 44
+\BOOKMARK [3][]{subsubsection.3.4.2.3}{3.4.2.3 Usercredentials}{subsection.3.4.2}% 45
+\BOOKMARK [0][]{chapter.4}{4 Implementation}{}% 46
+\BOOKMARK [1][]{section.4.1}{4.1 Tools and Technologies}{chapter.4}% 47
+\BOOKMARK [2][]{subsection.4.1.1}{4.1.1 NodeJS}{section.4.1}% 48
+\BOOKMARK [2][]{subsection.4.1.2}{4.1.2 MongoDB}{section.4.1}% 49
+\BOOKMARK [2][]{subsection.4.1.3}{4.1.3 ReactJS}{section.4.1}% 50
+\BOOKMARK [1][]{section.4.2}{4.2 Coding Standards Followed}{chapter.4}% 51
+\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 Proper Indentation / Structure}{section.4.2}% 52
+\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 Naming Convention}{section.4.2}% 53
+\BOOKMARK [2][]{subsection.4.2.3}{4.2.3 Avoiding Callback Hell}{section.4.2}% 54
+\BOOKMARK [2][]{subsection.4.2.4}{4.2.4 Modular Approach}{section.4.2}% 55
+\BOOKMARK [2][]{subsection.4.2.5}{4.2.5 Proper Folder Structure/Naming}{section.4.2}% 56
+\BOOKMARK [2][]{subsection.4.2.6}{4.2.6 Model View Controller Model}{section.4.2}% 57
+\BOOKMARK [2][]{subsection.4.2.7}{4.2.7 Documentation}{section.4.2}% 58
+\BOOKMARK [1][]{section.4.3}{4.3 Execution Results and Discussions}{chapter.4}% 59
+\BOOKMARK [1][]{section.4.4}{4.4 RESTful API/End Points}{chapter.4}% 60
+\BOOKMARK [2][]{subsection.4.4.1}{4.4.1 GET Requests}{section.4.4}% 61
+\BOOKMARK [2][]{subsection.4.4.2}{4.4.2 POST Requests}{section.4.4}% 62
+\BOOKMARK [2][]{subsection.4.4.3}{4.4.3 PUT Requests}{section.4.4}% 63
+\BOOKMARK [0][]{chapter.5}{5 Conclusion And Future Scope}{}% 64
+\BOOKMARK [1][]{section.5.1}{5.1 Conclusions}{chapter.5}% 65
+\BOOKMARK [1][]{section.5.2}{5.2 Future Scope}{chapter.5}% 66
+\BOOKMARK [0][]{section.5.2}{Bibliography}{}% 67

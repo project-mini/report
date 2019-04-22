@@ -3,142 +3,115 @@
 \begin{quotation}
 "Software development is not a rational process. It's a process made by people with feelings,
 with bodies and with thinking. And by putting all those together I can be a more effective
-software enginner."
+software engineer."
 \end{quotation}
 \begin{flushright}
 Kent Beck
 \end{flushright}
 
+A goal without a plan is just a wish. We kickstart this chapter by discussing the workflow model we choose and why it was a good fit for us. We shall then venture into the architectural design of our project and then move towards the functionality of the same.
+
+% ===================================================================================================
+% SOFTWARE DEVELOPMENT METHODOLOGY
+% ===================================================================================================
+
 \section{Software Development Methodology}
+The software development methodology we have used is Xtreme Programming from the family of Agile Processes.
 
-\begin{center}
-\includegraphics[scale=0.5]{images/xtreme.jpg} 
-\captionof{figure}{XP Workflow}
-\end{center}
+As Roger S. Pressman notes in his book \textit{Software Engineering: A Practioner's Approach}
 
+\begin{quotation}
+"[Agile processes] are appropriate for many types of project and are particularly useful when web applications are engineered."
+\end{quotation}
 
-Extreme programming (XP) is a software development methodology which is intended to improve software quality and responsiveness to changing customer requirements. As a type of agile software development, it advocates frequent "releases" in short development cycles, which is intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.
+We will first give you an account as to what XP is and then justify our choice of workflow.
 
-Other elements of extreme programming include: programming in pairs or doing extensive code review, unit testing of all code, avoiding programming of features until they are actually needed, a flat management structure, code simplicity and clarity, expecting changes in the customer's requirements as time passes and the problem is better understood, and frequent communication with the customer and among programmers.
+\begin{figure}
+\includegraphics[scale=0.5]{images/xtreme.jpg}
+\caption{}
+\label{fig:xtreme}
+\end{figure}
 
-The methodology takes its name from the idea that the beneficial elements of traditional software engineering practices are taken to "extreme" levels. As an example, code reviews are considered a beneficial practice; taken to the extreme, code can be reviewed continuously, i.e. the practice of pair programming.
+\subsection{\texttt{What is it?}}
+
+Extreme programming (XP) Figure ~\ref{fig:xtreme}, is a software development methodology which is intended to improve software quality and responsiveness to changing customer requirements. As a type of agile software development, it advocates frequent "releases" in short development cycles, which is intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.
+
+Other elements of extreme programming include: programming in pairs or doing extensive code review, unit testing of all code, avoiding programming of features until they are actually needed, a flat management structure, code simplicity, and clarity, expecting changes in the customer's requirements as time passes and the problem is better understood, and frequent communication with the customer and among programmers.
+
+This methodology takes its name from the idea that the beneficial elements of traditional software engineering practices are taken to "extreme" levels. As an example, code reviews are considered a beneficial practice; taken to the extreme, the code can be reviewed continuously, i.e. the practice of pair programming.
+
+\subsection{\texttt{Why we chose it?}}
+
+Developing any software on web platform entails change as its introductory name. Clearly, owing to its just-in-time functionality, web development requires that the developers be constantly looking out for change and bring it into the platform as soon as possible. This intrinsic nature of web-development prompted us to undertake a process model that would naturally lend itself to rapid change and fast build. And thus we choose XP as an obvious model that meets our requirements adequately.
 
 \section{Architecture}
 
-\section{RESTful API/End Points}
+\begin{center}
+\begin{figure}[h!]
+    \includegraphics[scale=0.5]{images/architecture.png}
+    \caption{Architectural diagram for AlterFOSS}
+    \label{fig:architecture}
+\end{figure}
+\end{center}
 
 
-Each alternative software will be initialized with 0 upvotes and downvotes. These fields will be via \texttt{req.body.<field-name>}. If the \texttt{suggestedBy} field is not specified, then the default value is taken to be "\textsl{anonymous}". If the input syntax does not match this standard, the returned value is a string specifying the error.
-
-\subsection{\texttt{GET Requests}}
-
-\begin{itemize}
-
-\item{\texttt{'GET' /}}
-
-Home Page
-
-\item{\texttt{'GET' /api/login/me}}
-
-Used to query the database for user information. A token needs to be sent in the header of the request which shall then be verified. On successful varification, usernmae, firstName and lastName are returned in response. Otherwise a 400 eror is raised.
-
-\item{\texttt{'GET' /api/proprietary}}
-
-Returns an array of all proprietary softwares as an array of objects.
-
-\item{\texttt{'GET' /api/alternatives}}
-
-Return an array of the top 10 alternatives (Free Softwares) as an array of objects containing the name, license and upVotes for the softwares in decreasing order.
-
-\item{\texttt{'GET' /api/alternatives/<id>}}
-
-Returns the alternatives for the proprietary software specified by id. id has to be passed as a in the url.
-
-\end{itemize}
-
-\subsection{\texttt{POST Requests}}
+As the architecture shows, the application works in five different layers - Data layer, data access layer, middleware, service layer and presentation layer. The explaination of each of these layers is as follows:
 
 \begin{itemize}
+\item \textbf{Data Layer}: This layer will deal with the data source, i.e the database which is used to store all the data necessary for this application to function. This is the MongoDB database in our case, which is a free and NoSQL database. The data to be stored is the user data and the data related to the softwares and their alternatives.
 
-\item{\texttt{'POST' /api/alternatives}}
+\item \textbf{Data Access Layer}: This layer will deal with accessing the data that is stored in the database and changing it to a format which can be used by the application for further processing, such as creating objects out of the documents stored in the MongoDB database. This layer will comprise of modules consisting of functions to deal with both the user data and the software data stored at the data layer.
 
-To add a new alternative to the free softwares. The body of the request contains the following fields:
+\item \textbf{Middleware}: This layer consists of middleware which deals with add-on tasks such as input validation, session handling using express, user authentication and registration. Various other minor middlewares are also used throughout the project which aid in integration of the data access layer with the service layer.
 
-\begin{itemize}
-\item \texttt{name}: The name of the software
-\item \texttt{shortDescription}: A one line description of it
-\item \texttt{handle}: A single keyword which will be used to assign it as an alternative
-\item \texttt{license}: The software's license
-\item \texttt{suggestedBy}: The username of the user who proposed this alternative
-\end{itemize}
+\item \textbf{Service layer}: This layer is the one responsible for getting the validated data through RESTful api end points and presenting it to the user on the front end as well as take the input from user, send it to the middleware for further validation before storing it in the database. Basically, this layer is used to glue together the front-end to the back-end.
 
-\item{\texttt{'POST' /api/proprietary/}}
-
-This will add a new proprietary software. Similar to adding alternative softwares, here also the request body must contain the following fields:
-\begin{itemize}
-\item \texttt{name}: name of the proprietary software
-\item \texttt{shortDescription}: One line description of the software
-\item \texttt{tags}: A string array consisting of strings that will be matched against the handle of the alternative softwares to verify it is an alternative
-\item \texttt{requestedBy}: Username of the user who put up this proprietary software request
-\end{itemize}
-
-If the \texttt{requestedBy} field is not specified, then the default value is taken to be "\textsl{anonymous}". If the input syntax does not match this standard, the returned value is a string specifying the error.
-
-
-
-\item{\texttt{'POST' /api/proprietary/}}
-
-Used to search for proprietary softwares. The pattern will be used as a regular expression to search for proprietary softwares. Pass the search string the user enters to this endpoint. Returns an array of objects corresponding to the proprietary softwares matching the given search string. The string will be passed as a property 'search' inside the \texttt{req.body}.
-
-
-\item{\texttt{'POST' /api/alternatives/license/}}
-
-Used to search alternative softwares to check their license. Returns an array of objects containing the name of the alternatives matching the search property of the req.body object. The matching is done as regExp matching ignoring case.
-
-
-\item{\texttt{'POST' /api/proprietary/search/}}
-
-Used to search proprietary softwares. Returns an array of objects containing the name and shortDescription of the proprietary softwares matching the search property of the req.bodyobject. The matching is done as regExp matching ignoring case.
-
-
-\item{\texttt{'POST' /api/signup}}
-
-Used to sign-up a user onto the application. It takes user credentials in the request's body and then validates for correcteness. If validation passes, the user is stored onto the database and automatically logged in. Additionally, a json web token is sent for future use. If the validation fails, the user is prompted with appropriate error message.
-
-
-\item{\texttt{'POST' /api/login}}
-
-Used to log-in a user onto the application. There are two ways of doing it : 
-
-\begin{enumerate}
-\item \textbf{Through log-in credentials} : This method involves user sending in his uername/email and password. On successful validation of the credentials, user is logged onto the system as well as a json web token is sent for future use(session handling).
-
-\item \textbf{Through json web token} : If a user queries with a valid json web token, he is logged onto the system after varifying the token's authenticity. Otherwise an \texttt{invalid-token} error is raised.
-\end{enumerate}
+\item \textbf{Presentation layer}: This layer is the one which will be directly accessible to the user and the point via which the user interacts with the application. It is designed using the React Framework and consists of various forms, fields, tables  and components to enable the user to perform various actions like searching, posting data, retrieving data, voting et cetera which enable the smooth functioning of the application.
 
 \end{itemize}
+    
+% ===================================================================================================
+% FUNCTIONAL SPECIFICATIONS SECTION
+% ===================================================================================================
+\section{Functional Specifications}
+This section deals with various functional components of the application and their associated purpose.
 
+\subsection{Search Softwares}
+Name of module: searchProprietarySoftware
+Parameters: Text entered by the user at the front end
+Purpose: This functional component will be used to search for proprietary softwares that 
+have already been requested by some user to get its alternatives.
 
-\subsection{\texttt{PUT Requests}}
+\subsection{Request for alternatives for a software}
 
-\begin{itemize}
+Name of module: addProprietarySoftwares
+Parameters: The name of the software for which alternatives are desired, tags defining the software.
+Purpose: This functional component is used when a user wants to request for alternatives to proprietary software that is not already available on the platform. The user will need to specify the name of the software along with the tags to categorize the software, which can be later used to fetch the alternatives.
 
-\item{\texttt{'PUT' /api/alternatives/upvote/<id>}}
-This will increase number of upvotes for the given alternative software specified by id by 1. The id has to be passed as a parameter in the url.
+\subsection{Suggest alternatives}
 
+Name of module: addAlternatives
+Parameters: The name of the alternative software along with the handle which uniquely categorizes the software 
+Purpose: This functional component is used when the user wishes to add new alternative software to the 
 
-\item{\texttt{'PUT' /api/alternatives/unupvote/<id>}}
-Will reduce the number of upvotes for the given alternative software specified by id by 1. The id has to be passed as a parameter in the url. Automatically checks if the upvotes is already at 0, doesn’t do anything.
+\subsection{Check license of a software}
 
+Name of module: checkLicense
+Parameters: Name of the software for which the license is to be checked
+Purpose: This functional component will be used to show the license under which the software is published. The user can also get more detailed information about the license via this module. The license for the software will be specified by the user who suggested the alternative.
 
-\item{\texttt{'PUT' /api/alternatives/downvote/<id>}}
-This will increase number of downvotes for the given alternative software specified by id by 1. The id has to be passed as a parameter in the url.
+\subsection{Upvote/Downvote a particular alternative}
 
+Name of module: upVote/downVote
+Parameters: A unique identifier for the software which will be picked up by the front end during the user's interaction with the voting feature
+Purpose: This functional component is utilized when the user wishes to upvote or downvote a software 
 
-\item{\texttt{'PUT' /api/alternatives/undownvote/<id>}}
-Will reduce the number of downvotes for the given alternative software specified by id by 1. The id has to be passed as a parameter in the url. Automatically checks if the upvotes is already at 0, doesn’t do anything.
+\subsection{Signup/Login/Authenticate}
 
-\end{itemize}
+Name of module: authenticate/register
+Parameters: The required user credentials depending on the operation to be performed
+Purpose: Used to start a session by either logging in the user or creating a new user in case the corresponding entry for the user does not exist. This module will also authenticate the user in case he wishes to login by checking the user-id and password. For security reasons, the password hash is stored rather than the password in clear text.
+
 
 
 

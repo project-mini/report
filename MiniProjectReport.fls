@@ -178,16 +178,20 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/Chapter2.tex
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/Chapter2.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/xtreme.jpg
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/xtreme.jpg
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/xtreme.jpg
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/architecture.png
+INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/architecture.png
+INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/architecture.png
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/Chapter3.tex
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/Chapter3.tex
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/uml_user.png
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/uml_user.png
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/uml_user.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/Chapter4.tex
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/Chapter4.tex
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-1.png
@@ -208,9 +212,6 @@ INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-3.png
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-4.png
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-4.png
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-4.png
-INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-5.png
-INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-5.png
-INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-5.png
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-6.png
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-6.png
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-6.png
@@ -225,6 +226,8 @@ INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-9.png
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/images/4-9.png
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/Chapter5.tex
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/Chapter5.tex
+INPUT /home/black-knight/Documents/TexMaker/MiniProject/MiniProjectReport.bbl
+INPUT /home/black-knight/Documents/TexMaker/MiniProject/MiniProjectReport.bbl
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/MiniProjectReport.aux
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/Acknowledgement.aux
 INPUT /home/black-knight/Documents/TexMaker/MiniProject/Acknowledgement.aux
@@ -236,4 +239,5 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb

@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{fancyhdr}
+\usepackage{url}
 
 \begin{document}
 
@@ -30,7 +31,6 @@
 \newpage
 
 
-
 \input{Chapter1.tex}
 
 \input{Chapter2.tex}
@@ -40,5 +40,10 @@
 \input{Chapter4.tex}
 
 \input{Chapter5.tex}
+
+\bibliographystyle{plain}
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{References.bib}
 
 \end{document}

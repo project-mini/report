@@ -285,8 +285,8 @@
 \vspace*{1.5cm}
 {\Large \bfseries Acknowledgements}
 \end{center}
-\vspace{0.5cm}\begin{quote}}
-{\end{quote}\end{alwayssingle}}
+\vspace{0.5cm}}
+{\end{alwayssingle}}
 
 %ABSTRACT
 %

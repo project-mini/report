@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.1)  20 APR 2019 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.1)  22 APR 2019 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -635,20 +635,20 @@ Package caption Info: hyperref package is loaded.
 ) (/home/black-knight/Documents/TexMaker/MiniProject/MiniProjectReport.aux (/home/black-knight/Documents/TexMaker/MiniProject/Acknowledgement.aux) (/home/black-knight/Documents/TexMaker/MiniProject/Abstract.aux))
 \openout1 = `MiniProjectReport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count116
@@ -675,7 +675,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 11.
+Package hyperref Info: Link coloring ON on input line 12.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -683,9 +683,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count122
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
  (/home/black-knight/Documents/TexMaker/MiniProject/MiniProjectReport.out) (/home/black-knight/Documents/TexMaker/MiniProject/MiniProjectReport.out)
 \@outlinefile=\write4
 \openout4 = `MiniProjectReport.out'.
@@ -694,26 +694,21 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \openout2 = `Acknowledgement.aux'.
 
- (/home/black-knight/Documents/TexMaker/MiniProject/Acknowledgement.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-
- []
-
-) [1
+ (/home/black-knight/Documents/TexMaker/MiniProject/Acknowledgement.tex [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \openout2 = `Abstract.aux'.
 
  (/home/black-knight/Documents/TexMaker/MiniProject/Abstract.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
@@ -722,11 +717,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
 
 ] [3]) (/home/black-knight/Documents/TexMaker/MiniProject/MiniProjectReport.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -742,240 +737,190 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Chapter 1.
 [4
 
-] [5] [6]) (/home/black-knight/Documents/TexMaker/MiniProject/Chapter2.tex [7]
+] [5] [6] [7]) (/home/black-knight/Documents/TexMaker/MiniProject/Chapter2.tex [8]
 Chapter 2.
-<images/xtreme.jpg, id=363, 963.6pt x 542.025pt>
+<images/xtreme.jpg, id=396, 963.6pt x 542.025pt>
 File: images/xtreme.jpg Graphic file (type jpg)
 <use images/xtreme.jpg>
-Package pdftex.def Info: images/xtreme.jpg  used on input line 15.
+Package pdftex.def Info: images/xtreme.jpg  used on input line 30.
 (pdftex.def)             Requested size: 481.79883pt x 271.01183pt.
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 16.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (28.83093pt too wide) in paragraph at lines 15--16
- [] 
+Overfull \hbox (28.83093pt too wide) in paragraph at lines 30--31
+[][] 
  []
 
-[8
-
- </home/black-knight/Documents/TexMaker/MiniProject/images/xtreme.jpg>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 33.
- [9] [10] [11]) (/home/black-knight/Documents/TexMaker/MiniProject/Chapter3.tex [12]
-Chapter 3.
-[13
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 35.
+[9
 
-] [14] [15]
-<images/uml_user.png, id=401, 424.2249pt x 479.1501pt>
+] [10 </home/black-knight/Documents/TexMaker/MiniProject/images/xtreme.jpg>]
+<images/architecture.png, id=409, 844.15375pt x 723.70375pt>
+File: images/architecture.png Graphic file (type png)
+<use images/architecture.png>
+Package pdftex.def Info: images/architecture.png  used on input line 51.
+(pdftex.def)             Requested size: 422.07584pt x 361.85098pt.
+ [11 </home/black-knight/Documents/TexMaker/MiniProject/images/architecture.png>] [12] [13]) (/home/black-knight/Documents/TexMaker/MiniProject/Chapter3.tex [14]
+Chapter 3.
+[15
+
+] [16] [17] [18]
+<images/uml_user.png, id=456, 424.2249pt x 479.1501pt>
 File: images/uml_user.png Graphic file (type png)
 <use images/uml_user.png>
-Package pdftex.def Info: images/uml_user.png  used on input line 79.
-(pdftex.def)             Requested size: 424.22385pt x 479.14893pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 80.
-See the caption package documentation for explanation.
-
-[16] [17 </home/black-knight/Documents/TexMaker/MiniProject/images/uml_user.png>] [18] [19] [20]) (/home/black-knight/Documents/TexMaker/MiniProject/Chapter4.tex [21]
+Package pdftex.def Info: images/uml_user.png  used on input line 100.
+(pdftex.def)             Requested size: 339.38037pt x 383.3206pt.
+ [19 </home/black-knight/Documents/TexMaker/MiniProject/images/uml_user.png>] [20] [21]) (/home/black-knight/Documents/TexMaker/MiniProject/Chapter4.tex [22]
 Chapter 4.
-[22
+[23
 
-] [23] [24]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 52.
-
-<images/4-1.png, id=443, 1023.825pt x 578.16pt>
+] [24] [25]
+<images/4-1.png, id=493, 1023.825pt x 578.16pt>
 File: images/4-1.png Graphic file (type png)
 <use images/4-1.png>
-Package pdftex.def Info: images/4-1.png  used on input line 55.
+Package pdftex.def Info: images/4-1.png  used on input line 67.
 (pdftex.def)             Requested size: 460.717pt x 260.16959pt.
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 56.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (7.7491pt too wide) in paragraph at lines 55--56
- [] 
+Overfull \hbox (7.7491pt too wide) in paragraph at lines 67--68
+[][] 
  []
 
-<images/login.png, id=444, 1606.0pt x 903.375pt>
+<images/login.png, id=495, 1606.0pt x 903.375pt>
 File: images/login.png Graphic file (type png)
 <use images/login.png>
-Package pdftex.def Info: images/login.png  used on input line 66.
+Package pdftex.def Info: images/login.png  used on input line 77.
 (pdftex.def)             Requested size: 465.72809pt x 261.97205pt.
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 67.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (12.7602pt too wide) in paragraph at lines 66--67
- [] 
+Overfull \hbox (12.7602pt too wide) in paragraph at lines 77--78
+[][] 
  []
 
-[25 </home/black-knight/Documents/TexMaker/MiniProject/images/4-1.png (PNG copy)>]
-<images/register.png, id=451, 1606.0pt x 903.375pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/register.png, id=496, 1606.0pt x 903.375pt>
 File: images/register.png Graphic file (type png)
 <use images/register.png>
-Package pdftex.def Info: images/register.png  used on input line 72.
+Package pdftex.def Info: images/register.png  used on input line 83.
 (pdftex.def)             Requested size: 465.72809pt x 261.97205pt.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 73.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (12.7602pt too wide) in paragraph at lines 72--73
- [] 
+Overfull \hbox (12.7602pt too wide) in paragraph at lines 83--84
+[][] 
  []
 
-[26 </home/black-knight/Documents/TexMaker/MiniProject/images/login.png> </home/black-knight/Documents/TexMaker/MiniProject/images/register.png>]
-<images/4-2.png, id=460, 967.36406pt x 546.54187pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/4-2.png, id=499, 967.36406pt x 546.54187pt>
 File: images/4-2.png Graphic file (type png)
 <use images/4-2.png>
-Package pdftex.def Info: images/4-2.png  used on input line 82.
+Package pdftex.def Info: images/4-2.png  used on input line 92.
 (pdftex.def)             Requested size: 435.3098pt x 245.94156pt.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 83.
-See the caption package documentation for explanation.
-
-<images/4-3.png, id=461, 1023.825pt x 578.16pt>
+<images/4-3.png, id=501, 1023.825pt x 578.16pt>
 File: images/4-3.png Graphic file (type png)
 <use images/4-3.png>
-Package pdftex.def Info: images/4-3.png  used on input line 91.
+Package pdftex.def Info: images/4-3.png  used on input line 100.
 (pdftex.def)             Requested size: 440.23616pt x 248.60394pt.
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 92.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27 </home/black-knight/Documents/TexMaker/MiniProject/images/4-2.png>]
-<images/4-4.png, id=467, 1023.825pt x 578.16pt>
+<images/4-4.png, id=503, 1023.825pt x 578.16pt>
 File: images/4-4.png Graphic file (type png)
 <use images/4-4.png>
-Package pdftex.def Info: images/4-4.png  used on input line 101.
+Package pdftex.def Info: images/4-4.png  used on input line 109.
 (pdftex.def)             Requested size: 450.48439pt x 254.39117pt.
+[26 </home/black-knight/Documents/TexMaker/MiniProject/images/4-1.png (PNG copy)>]
 
+LaTeX Warning: Text page 27 contains only floats.
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 102.
-See the caption package documentation for explanation.
+[27 </home/black-knight/Documents/TexMaker/MiniProject/images/login.png> </home/black-knight/Documents/TexMaker/MiniProject/images/register.png>]
 
-[28 </home/black-knight/Documents/TexMaker/MiniProject/images/4-3.png (PNG copy)>]
-<images/4-5.png, id=474, 1023.825pt x 578.16pt>
-File: images/4-5.png Graphic file (type png)
-<use images/4-5.png>
-Package pdftex.def Info: images/4-5.png  used on input line 110.
-(pdftex.def)             Requested size: 460.717pt x 260.16959pt.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 111.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (7.7491pt too wide) in paragraph at lines 110--111
- [] 
- []
-
-[29 </home/black-knight/Documents/TexMaker/MiniProject/images/4-4.png (PNG copy)>]
-<images/4-6.png, id=480, 1606.0pt x 903.375pt>
+[28 </home/black-knight/Documents/TexMaker/MiniProject/images/4-2.png> </home/black-knight/Documents/TexMaker/MiniProject/images/4-3.png (PNG copy)>]
+<images/4-6.png, id=526, 1606.0pt x 903.375pt>
 File: images/4-6.png Graphic file (type png)
 <use images/4-6.png>
-Package pdftex.def Info: images/4-6.png  used on input line 115.
+Package pdftex.def Info: images/4-6.png  used on input line 117.
 (pdftex.def)             Requested size: 457.71477pt x 257.46455pt.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 116.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (4.74687pt too wide) in paragraph at lines 115--116
- [] 
+Overfull \hbox (4.74687pt too wide) in paragraph at lines 117--118
+[][] 
  []
 
-[30 </home/black-knight/Documents/TexMaker/MiniProject/images/4-5.png (PNG copy)> </home/black-knight/Documents/TexMaker/MiniProject/images/4-6.png>]
-<images/4-7.png, id=488, 1606.0pt x 903.375pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/4-7.png, id=528, 1606.0pt x 903.375pt>
 File: images/4-7.png Graphic file (type png)
 <use images/4-7.png>
-Package pdftex.def Info: images/4-7.png  used on input line 123.
+Package pdftex.def Info: images/4-7.png  used on input line 126.
 (pdftex.def)             Requested size: 457.71477pt x 257.46455pt.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 124.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (4.74687pt too wide) in paragraph at lines 123--124
- [] 
+Overfull \hbox (4.74687pt too wide) in paragraph at lines 126--127
+[][] 
  []
 
-<images/4-8.png, id=489, 955.31906pt x 513.41812pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29 </home/black-knight/Documents/TexMaker/MiniProject/images/4-4.png (PNG copy)>] [30 </home/black-knight/Documents/TexMaker/MiniProject/images/4-6.png> </home/black-knight/Documents/TexMaker/MiniProject/images/4-7.png>]
+<images/4-8.png, id=541, 955.31906pt x 513.41812pt>
 File: images/4-8.png Graphic file (type png)
 <use images/4-8.png>
-Package pdftex.def Info: images/4-8.png  used on input line 136.
+Package pdftex.def Info: images/4-8.png  used on input line 137.
 (pdftex.def)             Requested size: 449.00002pt x 241.30653pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 137.
-See the caption package documentation for explanation.
-
-[31 </home/black-knight/Documents/TexMaker/MiniProject/images/4-7.png>]
-<images/4-9.png, id=496, 910.90312pt x 488.57532pt>
+<images/4-9.png, id=542, 910.90312pt x 488.57532pt>
 File: images/4-9.png Graphic file (type png)
 <use images/4-9.png>
 Package pdftex.def Info: images/4-9.png  used on input line 143.
 (pdftex.def)             Requested size: 455.45044pt x 244.28706pt.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 144.
-See the caption package documentation for explanation.
-
-
 Overfull \hbox (2.48254pt too wide) in paragraph at lines 143--144
- [] 
+[][] 
  []
 
-) (/home/black-knight/Documents/TexMaker/MiniProject/Chapter5.tex [32 </home/black-knight/Documents/TexMaker/MiniProject/images/4-8.png (PNG copy)> </home/black-knight/Documents/TexMaker/MiniProject/images/4-9.png>]
-Chapter 5.
-[33
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
- [34]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31 </home/black-knight/Documents/TexMaker/MiniProject/images/4-8.png (PNG copy)>] [32 </home/black-knight/Documents/TexMaker/MiniProject/images/4-9.png>] [33] [34]
+Overfull \hbox (0.51738pt too wide) in paragraph at lines 260--262
+[]\OT1/cmtt/m/n/12 'PUT' /api/alternatives/downvote/<id> \OT1/cmr/m/n/12 This will in-crease the num-ber of down-
+ []
+
+) (/home/black-knight/Documents/TexMaker/MiniProject/Chapter5.tex [35]
+Chapter 5.
+[36
+
+]) [37] (/home/black-knight/Documents/TexMaker/MiniProject/MiniProjectReport.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
+ [38
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (/home/black-knight/Documents/TexMaker/MiniProject/MiniProjectReport.aux (/home/black-knight/Documents/TexMaker/MiniProject/Acknowledgement.aux) (/home/black-knight/Documents/TexMaker/MiniProject/Abstract.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `MiniProjectReport.out' has not changed.
-(rerunfilecheck)             Checksum: A03F40E7668CC3F4F71F3FD8486D23CD;4538.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
+(rerunfilecheck)             Checksum: 39187828F062D3D0E37167C3B6DCFD1C;4931.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 9019 strings out of 492982
- 132541 string characters out of 6134897
- 229847 words of memory out of 5000000
- 12291 multiletter control sequences out of 15000+600000
- 11099 words of font info for 42 fonts, out of 8000000 for 9000
+ 9083 strings out of 492982
+ 133632 string characters out of 6134897
+ 230666 words of memory out of 5000000
+ 12336 multiletter control sequences out of 15000+600000
+ 11446 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,49p,1039b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on /home/black-knight/Documents/TexMaker/MiniProject/MiniProjectReport.pdf (37 pages, 1961287 bytes).
+ 36i,12n,49p,1052b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on /home/black-knight/Documents/TexMaker/MiniProject/MiniProjectReport.pdf (41 pages, 1813809 bytes).
 PDF statistics:
- 560 PDF objects out of 1000 (max. 8388607)
- 493 compressed objects within 5 object streams
- 116 named destinations out of 1000 (max. 500000)
- 562 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 645 PDF objects out of 1000 (max. 8388607)
+ 571 compressed objects within 6 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 602 words of extra memory for PDF output out of 10000 (max. 10000000)
 
