@@ -178,7 +178,8 @@
 \addtolength{\headheight}{0.5pt}
 \fancypagestyle{plain}{
   \fancyhead{}
-  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\headrulewidth}{0pt} 
+%   TODO: undo changes if te
 }
 
 \newcommand{\submittedtext}{{A thesis submitted for the degree of}}
